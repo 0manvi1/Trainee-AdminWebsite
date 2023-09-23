@@ -1,0 +1,36 @@
+body,html{
+    height:100%;
+    width:100%;
+    margin:0%;
+    
+    
+}
+body{
+    background-attachment: fixed;
+
+}
+image{
+    display: flex;
+    flex-direction: center;
+    justify-content:10% right;
+}
+.box{
+    display: flex;
+    flex-direction: center;
+    justify-content:center;
+    border-top: 100px;
+    
+}
+button{
+    padding: 2px 6px;
+    cursor: pointer;
+}
+.cancelbtn {
+    width: auto;
+    padding: 3px 6px;
+    background-color: #f44336;
+  }
+button:hover{
+    color: darkkhaki;
+}
+

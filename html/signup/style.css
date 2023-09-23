@@ -1,0 +1,37 @@
+body,html{
+    height:100%;
+    width:100%;
+    margin:0%;
+}
+body{
+    background-image: linear-gradient(rgb(193, 206, 211),rgb(91, 91, 118));
+    background-attachment: fixed;
+}
+image{
+    display: flex;
+    flex-direction: center;
+    justify-content:10% right;
+}
+.cont{
+    display: flex;
+    flex-direction: center;
+    justify-content:center;
+}
+.box{
+    display: flex;
+    flex-direction: center;
+    justify-content:center;
+    
+}
+button{
+    color:black;
+    background-color: antiquewhite;
+
+}
+button:hover{
+    background-color: green;
+    
+}
+#no:hover{
+    
+}

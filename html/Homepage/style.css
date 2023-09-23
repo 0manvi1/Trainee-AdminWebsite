@@ -1,0 +1,29 @@
+*{
+    margin:0px;
+    padding:0px;
+    display: 100vh;
+}
+body{
+    background-image: url(li.jpeg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+.wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: capitalize;
+
+    font-size: large;
+
+}
+.container{
+    padding:30px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 60px;
+    font-size: large;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}

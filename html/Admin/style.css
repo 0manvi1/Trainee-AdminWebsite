@@ -1,0 +1,24 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: 100%;
+   
+}
+body{
+    background-color: rgb(217, 201, 231);
+}
+.container h1{
+    padding:30px;
+    text-align: center;
+    font: size 80px;
+}
+.container p{
+     
+     display: inline;
+     padding: 180px;
+     gap: 20px;
+     font-style: oblique;
+     font-size: large;
+     margin:3px;
+     
+}

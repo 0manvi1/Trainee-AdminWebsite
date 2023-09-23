@@ -1,0 +1,61 @@
+<?php 
+   session_start();
+   if (!isset($_SESSION['username']) && !isset($_SESSION['id'])) {   ?>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body style=" background-image:linear-gradient(rgb(177, 171, 211),rgb(240, 239, 244))" >
+
+
+    <div class="box">
+    <form action="http://localhost/manvi/connect.php" method="post">
+        <div class="imgcontainer">
+            <img src="lg.png" class="avatar" height="300px" width="300px">
+        </div>
+
+        <h1>Welcome to Login Portal!</h1>
+
+        <?php if (isset($_GET['error'])) { ?>
+            
+              <?=$_GET['error']?>
+          
+          <?php } ?>
+        <label for="username"><b>Username:</b></label>
+        <input type="text" name="username" required>
+        </br>
+        </br>
+        <label for="password"><b>Password:</b></label>
+        <input type="Password" name="password" required>
+        </br>
+        </br>
+        <label for="usertype" ><b>Login as:</b></label>
+        <input type="radio" name="usertype" value="Trainee" required>&nbsp;Trainee |
+        <input type="radio" name="usertype" value="Admin" required>&nbsp;Admin 
+        </br>
+        </br>
+        <button type="submit" name="submit">Login</button>
+        </br>
+        </br>
+        <label>
+      
+        </br>
+        </br>
+        </br>
+       
+        <p class="psw">Forgot <a href="#">password?</a></p>
+        <p><a href="file:///C:/Users/HP/Desktop/html/signup/signup.html"><b>Are you a new user?</b></a></p>
+
+       
+
+    </form>
+</div>
+</body>
+</html>
+<?php }else{
+	header("Location: home.php");
+} ?>

@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Page</title>
+    <!-- <link rel="stylesheet" href="style.css"> -->
+</head>
+<body>
+    <div class="wrapper">
+        <h1>Welcome to Tata Parikshan!</h1>
+        
+    </div>
+
+    <div class="container">
+        
+        <input type="button" value="Register" onclick="window.open('http://localhost//manvi/html/Registration/registration.html')" />
+        <!-- <p><a href="file:///C:/Users/HP/Desktop/html/Registration/registration.html">Register</a></p> -->
+
+        <input type="button" value="Login" onclick="window.open('http://localhost/manvi/html/login/login1.html')" />
+        <!-- <p><a href="file:///C:/Users/HP/Desktop/html/login/login1.html">Login</a></p> --> 
+
+        <!-- <p><a href="C:\xampp\htdocs\manvi\Feedback.html">Give Feedback</a></p> -->
+        <input type="button" value="Feedback" onclick="window.open('http://localhost/manvi/feedback.html')" />
+    </div>
+</body>
+</html>
+<style>
+    *{
+    margin:0px;
+    padding:0px;
+    display: 100vh;
+}
+body{
+    background-image: url(li.jpeg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+.wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: capitalize;
+
+    font-size: large;
+
+}
+.container{
+    padding:30px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 60px;
+    font-size: large;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+input{
+    width:80px;
+    height:40px;
+    border: solid black 1px;
+}
+</style>

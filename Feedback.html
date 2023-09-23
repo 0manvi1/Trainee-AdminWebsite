@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feedback</title>
+    <!-- <link rel="stylesheet" href="styles.css"> -->
+</head>
+<body>
+    <div class="wrapper">
+        <div class="container">
+            <form action="http://localhost/manvi/feedback.php" method="post">
+                <h1><b>Feedback</b></h1>
+                <hr> 
+                <br>
+                <label for="name"><b>Name</b></label>
+                <input type="text" name="name" placeholder="Your Name">
+                <br>
+                <label for="email"><b>Email</b></label>
+                <input type="email" name="email" placeholder="Email Id">
+                <br>
+
+                <div class="rate">
+                <h3><b>Rate Us</b></h3><br>
+            
+                <p><b>1.How would you put overall quality of this training session?</b></p>
+                
+                <input type="radio" id="star1" name="rate1" value="1">1 Star
+                <!-- <label for="rate1" title="text"><b>1 Star</b></label> --> 
+                
+                <input type="radio" id="star2" name="rate1" value="2">2 Stars
+                <!-- <label for="rate2" title="text"><b>2 Stars</b></label> -->
+               
+                <input type="radio" id="star3" name="rate1" value="3">3 Stars
+                <!-- <label for="rate3" title="text"><b>3 Stars</b></label> -->
+                
+                <input type="radio" id="star4" name="rate1" value="4">4 Stars
+                <!-- <label for="rate4" title="text"><b>4 Stars</b></label> -->
+                
+                <input type="radio" id="star5" name="rate1" value="5">5 Stars
+                <!-- <label for="rate5" title="text"><b>5 Stars</b></label> -->
+                
+
+                
+                <p><b>2.Was the training program interactive and engaging?</b></p>
+                <input type="radio" id="star1a" name="rate1a" value="1">1 Star
+                <!-- <label for="rate1" title="text"><b>1 Star</b></label> -->
+                
+                <input type="radio" id="star2a" name="rate1a" value="2">2 Stars
+                <!-- <label for="rate2" title="text"><b>2 Stars</b></label> -->
+               
+                <input type="radio" id="star3a" name="rate1a" value="3">3 Stars
+                <!-- <label for="rate3" title="text"><b>3 Stars</b></label> -->
+                
+                <input type="radio" id="star4a" name="rate1a" value="4">4 Stars
+                <!-- <label for="rate4" title="text"><b>4 Stars</b></label> -->
+                
+                <input type="radio" id="star5a" name="rate1a" value="5">5 Stars
+                <!-- <label for="rate5" title="text"><b>5 Stars</b></label> -->
+                
+
+                
+                <p><b>3.Do you feel were given enough time and resources to complete the training?</b></p>
+                <input type="radio" id="star1" name="rate1b" value="1">1 Star
+                <!-- <label for="rate1" title="text"><b>1 Star</b></label> -->
+                
+                <input type="radio" id="star2" name="rate1b" value="2">2 Stars
+                <!-- <label for="rate2" title="text"><b>2 Stars</b></label> -->
+               
+                <input type="radio" id="star3" name="rate1b" value="3">3 Stars
+                <!-- <label for="rate3" title="text"><b>3 Stars</b></label> -->
+                
+                <input type="radio" id="star4" name="rate1b" value="4">4 Stars
+                <!-- <label for="rate4" title="text"><b>4 Stars</b></label> -->
+                
+                <input type="radio" id="star5" name="rate1b" value="5">5 Stars
+                <!-- <label for="rate5" title="text"><b>5 Stars</b></label> -->
+                
+
+                
+                <p><b>4.Was the training program well organized and easy to follow?</b></p>
+                <input type="radio" id="star1" name="rate1c" value="1">1 Star
+                <!-- <label for="rate1" title="text"><b>1 Star</b></label> -->
+                
+                <input type="radio" id="star2" name="rate1c" value="2">2 Stars
+                <!-- <label for="rate2" title="text"><b>2 Stars</b></label> -->
+               
+                <input type="radio" id="star3" name="rate1c" value="3">3 Stars
+                <!-- <label for="rate3" title="text"><b>3 Stars</b></label> -->
+                
+                <input type="radio" id="star4" name="rate1c" value="4">4 Stars
+                <!-- <label for="rate4" title="text"><b>4 Stars</b></label> -->
+                
+                <input type="radio" id="star5" name="rate1c" value="5">5 Stars
+                <!-- <label for="rate5" title="text"><b>5 Stars</b></label> -->
+                
+
+                <p><b>5.Overall, how will you rate the training?</b></p>
+                <input type="radio" id="star1" name="rate1d" value="1">1 Star
+                <!-- <label for="rate1" title="text"><b>1 Star</b></label> -->
+                
+                <input type="radio" id="star2" name="rate1d" value="2">2 Stars
+                <!-- <label for="rate2" title="text"><b>2 Stars</b></label> -->
+               
+                <input type="radio" id="star3" name="rate1d" value="3">3 Stars
+                <!-- <label for="rate3" title="text"><b>3 Stars</b></label> -->
+                
+                <input type="radio" id="star4" name="rate1d" value="4">4 Stars
+                <!-- <label for="rate4" title="text"><b>4 Stars</b></label> -->
+                
+                <input type="radio" id="star5" name="rate1d" value="5">5 Stars
+                <!-- <label for="rate5" title="text"><b>5 Stars</b></label> -->
+            </div>
+
+                <br>
+                <input type="submit" name="submit" value="Submit">
+
+
+            </form>
+        </div>
+    </div>
+</body>
+</html>
+
+<style>
+* {
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+  }
+body{
+    background: #4e54c8;
+    background:linear-gradient(to right, #8f94fb,#4e54c8);
+    overflow-y:auto;
+    overflow-x:hidden;
+    height:100vh ;
+    
+}
+
+.container{
+    background-color: #12192c;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    border-radius: 15px;
+    font-size: 95%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align:center;
+    padding: 40px;
+    max-width: 800px;
+    color:#4e54c8;
+    margin:15% auto 6% auto;
+  }
+
+input[type=email],input[type=text]{
+    width:100%;
+    padding:15px;
+    margin: 20px 0 10px 0;
+   display:inline-block;
+    background: #f1f1f1;
+    border: 2px solid black;
+}
+input[type=radio]{
+    padding:15px;
+    margin: 20px 0 10px 0;
+}
+input[type=submit]{
+    width: 80px;
+    text-decoration: solid;
+    background-color: #8f94fb;
+    
+}
+p{
+    font-size: larger ;
+}
+
+</style>
